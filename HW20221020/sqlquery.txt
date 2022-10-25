@@ -1,0 +1,13 @@
+CREATE DATABASE millionaire;
+USE millionaire;
+
+CREATE TABLE questions(
+	id int primary key not null auto_increment,
+    question text,
+    right_answer text,
+    answer1 text,
+    answer2 text,
+    answer3 text
+);
+
+select * from questions;
